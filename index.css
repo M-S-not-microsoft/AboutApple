@@ -1,0 +1,25 @@
+.items{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px ;
+    background: #ddd;
+    text-align: center;
+    font-size: 0;
+}
+
+.items {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.items > div > div {
+    display: inline-block;
+    width: 22%;
+    height: 400px;
+    background: #000;
+    margin-left: 4%;
+}
+
+.items > div > div:first-child {
+    margin-left: 0;
+}
